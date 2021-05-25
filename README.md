@@ -17,7 +17,9 @@ Run like so:
 ```bash
 $ python3 dns.py -d example.com
 ```
+For help instructions, run with the `-h` flag.
 
+## Suggested Use
 Add a `crontab` entry to run this command periodically on a device
 that is always on, such as a Raspberry Pi. If you set it to run every
 30 minutes, you ensure a maximum downtime of 30 minutes if the IP
